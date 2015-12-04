@@ -1,0 +1,124 @@
+body{
+	font-family: "Segoe UI";	
+}
+/*HEADER*/
+.header{
+	height: 850px;
+	background-color: #23232e;
+	width: 100%;
+}
+.header-content{
+	text-align: center;
+	padding-top: 80px;
+}
+.header-article{
+	color: rgb( 255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 80px;
+	padding-top: 185px;
+}
+.header-text{
+	font-size: 18px;
+	color: rgb( 255, 255, 255 );
+	width: 415px;
+	height: 49px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.667;
+}
+.header-arrow{
+	padding-top: 190px;
+}
+/*END HEADER*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*SLIDE 1*/
+.slide-1{
+	height: 1265px;
+	background: url(../src/background.png);
+	text-align: center;
+}
+.slide-1-head-text{
+	font-size: 30px;
+	color: rgb( 70, 75, 79);
+	line-height: 1.4;
+	width: 851px;
+	text-align: center;
+	margin: 0 auto;
+}
+.slide-1-head-text:nth-child(1){
+	padding-top: 180px;
+}
+.slide-1-head-text:nth-child(2){
+	padding-top: 80px;
+}
+.slide-1-article{
+	color: rgb( 70, 75, 79);
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 80px;	
+	margin: 0 auto;
+	padding-top: 125px;
+}
+.slide-1-columns-container{
+	margin: 0 365px;
+	padding-top: 100px;
+}
+.slide-1-columns div:nth-child(1){
+	text-transform: uppercase;
+	font-size: 18px;
+	color: rgb( 70, 75, 79 );
+	font-weight: bold;
+	line-height: 2.333;
+	text-align: left;
+}
+.slide-1-columns div:nth-child(2){
+	font-size: 18px;
+	color: rgb( 136, 138, 139 );
+	line-height: 1.667;
+	text-align: left;
+}
+/*END SLIDE 1*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*SLIDE 2*/
+.slide-2{
+	height: 1355px;
+	background-color: #23232e;
+	width: 100%;
+	text-align: center;
+}
+.slide-2-article{
+	color: rgb( 255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 80px;
+	padding-top: 130px;
+	text-align: center;
+}
+.slide-2-navbar-link{
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.slide-2-navbar-link a{
+	color: rgb( 255, 255, 255 );	
+}
+.slide-2-navbar-link a:hover{
+	color: #7470bd;	
+}
+.slide-2-column-container{
+	margin: 0 365px;
+	margin-top: 60px;	
+}
+.slide-2-column-container .row .col-lg-4{
+	text-align: center;
+}
+.slide-2-picture{
+	background-color: white;
+	height: 220px;
+	width: 220px;
+}
+/*END SLIDE 2*/
