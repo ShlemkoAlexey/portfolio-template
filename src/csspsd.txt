@@ -1,5 +1,5 @@
 .bg {
-  border-radius: 5px;
+
   background-color: rgb( 123, 119, 201 );
   position: absolute;
   left: 855px;
