@@ -112,13 +112,45 @@ body{
 .slide-2-column-container{
 	margin: 0 365px;
 	margin-top: 60px;	
+
 }
-.slide-2-column-container .row .col-lg-4{
+
+.slide-2-picture{
+	background-color: #7b77c9;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50%;
+	padding-bottom: 50%;
+}
+
+.slide-2-first-string,
+.slide-2-second-string{
+	display: block;
 	text-align: center;
 }
-.slide-2-picture{
-	background-color: white;
-	height: 220px;
-	width: 220px;
+
+
+.slide-2-first-string{
+	font-size: 21px;
+	color: rgb( 255, 255, 255 );
+	line-height: 1.714;
+
 }
+.slide-2-second-string{
+	font-size: 14px;
+	font-family: "Segoe UI";
+	color: rgb( 129, 139, 170 );
+	line-height: 2.571;
+}
+.slide-2-button{
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #7b77c9;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+
 /*END SLIDE 2*/
