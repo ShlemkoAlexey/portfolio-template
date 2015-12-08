@@ -276,7 +276,7 @@ body{
 /*FOOTER*/
 .footer{
 	height: 200px;
-	background: url(../src/background.png);
+	background: url(../src/background.png) -50% -50%; 
 	text-align: center;
 }
 .footer-text{
@@ -288,5 +288,9 @@ body{
 	margin: 0 auto;	
 }
 .footer-spacer{
-	margin-top: 100px;
+	margin-top: 60px;
+}
+
+.footer-links img{
+	margin: 20px 30px;
 }
